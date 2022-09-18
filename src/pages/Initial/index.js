@@ -91,7 +91,7 @@ function Initial(props) {
             <div className='w-full relative flex flex-col justify-center items-center h-64 mb-28'>
                 <p className='font-bold text-5xl'>TURING MACHINE</p>
                 <p className='font-bold '>*to check binary palindrome</p>
-                <div className='w-1/2 rounded-bl-md lg:w-1/4 bg-black text-gray-500 absolute top-0 right-0 flex flex-col justify-end h-full'>
+                <div className='w-full rounded-bl-md lg:w-1/4 bg-black text-gray-500 lg:absolute lg:top-0 lg:right-0 flex flex-col justify-end h-full'>
                     <Terminal history={history} setHistory={setHistory} qLeftState={qLeftState} qRightState={qRightState} cycle={cycle} />
                     <p>-----------------------------------------------------------</p>
                     <p className='px-3 pb-2 m-0 uppercase text-sm font-semibold'>State : {currentStateShow}</p>
